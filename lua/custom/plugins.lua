@@ -2,6 +2,7 @@ local overrides = require("custom.configs.overrides")
 
 ---@type NvPluginSpec[]
 local plugins = {
+  -- TroubleToggle [mode]  where [mode] is quickfix|lsp_workspace_diagnostics|lsp_document_diagnostics|lsp_references|loclist
   {
     "folke/trouble.nvim",
     lazy = false,
