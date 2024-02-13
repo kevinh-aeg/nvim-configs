@@ -2,6 +2,12 @@ local overrides = require("custom.configs.overrides")
 
 ---@type NvPluginSpec[]
 local plugins = {
+
+  {
+    "christoomey/vim-tmux-navigator", -- tmux & split window navigation
+    lazy = false,
+  },
+
   -- TroubleToggle [mode]  where [mode] is quickfix|lsp_workspace_diagnostics|lsp_document_diagnostics|lsp_references|loclist
   {
     "folke/trouble.nvim",
